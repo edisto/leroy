@@ -1,0 +1,53 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.obj { 
+  position:relative;
+  height:300px;
+  left:0px;
+  float:left
+}
+
+#mask {
+    position:absolute;
+    background-color:black;
+    width:600px;
+    height:300px;
+    left:0px;
+    overflow:hidden
+}
+
+#container {
+  position:absolute;
+  left:0px;
+  width:1200;
+  height:300;
+}
+
+#first {
+  background-color:blue;width:300px;
+}
+
+#second {
+  background-color:red;width:20px;
+}
+
+#third {
+  background-color:yellow;width:20px;
+}
+
+#output {
+  position:relative;
+}
+
+#services {
+  font-size: 18px; 
+}
+
+#services ul {
+  list-style: none;
+}
+
+#services ul li {
+  
+}
